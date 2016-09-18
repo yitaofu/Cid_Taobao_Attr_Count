@@ -1,0 +1,4 @@
+16/09/08 16:11:02 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+File: /data/rank/fuyitao/cid_taobao_attr_count/attr_merge_red.sh does not exist, or is not readable.
+Try -help for more information
+Streaming Command Failed!

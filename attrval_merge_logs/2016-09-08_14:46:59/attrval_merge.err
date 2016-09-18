@@ -1,0 +1,362 @@
+16/09/08 14:47:01 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+16/09/08 14:47:02 WARN streaming.StreamJob: -jobconf option is deprecated, please use -D instead.
+16/09/08 14:47:02 INFO Configuration.deprecation: mapred.map.tasks is deprecated. Instead, use mapreduce.job.maps
+16/09/08 14:47:02 INFO Configuration.deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+16/09/08 14:47:02 INFO Configuration.deprecation: mapred.job.priority is deprecated. Instead, use mapreduce.job.priority
+16/09/08 14:47:02 INFO Configuration.deprecation: mapred.job.name is deprecated. Instead, use mapreduce.job.name
+16/09/08 14:47:03 INFO client.ConfiguredRMFailoverProxyProvider: Failing over to rm2
+16/09/08 14:47:04 INFO lzo.GPLNativeCodeLoader: Loaded native gpl library from the embedded binaries
+16/09/08 14:47:04 INFO lzo.LzoCodec: Successfully loaded & initialized native-lzo library [hadoop-lzo rev d62701d4d05dfa6115bbaf8d9dff002df142e62d]
+16/09/08 14:47:04 INFO mapred.FileInputFormat: Total input paths to process : 901
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.99:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-12/10.1.33.29:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.33.78:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.33.14:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.102:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-1/10.1.35.45:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.95:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-1/10.1.35.20:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-5/10.1.32.27:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-8/10.1.33.62:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-12/10.1.35.185:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.61:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-2/10.1.33.51:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-1-5/10.1.32.207:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-8/10.1.33.20:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-16/10.1.35.199:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.100:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-2/10.1.33.57:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.33.17:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-15/10.1.35.192:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-12/10.1.33.46:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-12/10.1.32.250:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-0/10.1.35.12:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-3/10.1.33.38:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.92:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.106:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-1/10.1.35.22:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-10/10.1.35.159:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-4/10.1.32.19:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.91:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-12/10.1.32.249:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3d-3-17/10.1.35.48:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-11/10.1.35.165:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-8/10.1.33.98:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.63:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.32.46:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3d-3-17/10.1.35.53:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-2/10.1.35.26:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.69:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-1-5/10.1.32.211:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-12/10.1.32.254:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-3/10.1.33.37:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-14/10.1.33.40:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.64:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.33.15:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-10/10.1.35.157:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.35.84:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.33.72:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-7/10.1.35.69:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-11/10.1.32.223:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-3/10.1.35.37:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.35.188:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-10/10.1.35.153:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-3/10.1.33.36:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-12/10.1.35.181:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-13/10.1.33.41:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.67:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.105:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-2-3/10.1.32.240:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-14/10.1.33.31:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.104:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-5/10.1.32.30:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-15/10.1.33.114:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-12/10.1.33.47:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-16/10.1.33.93:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-2/10.1.35.32:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-2-16/10.1.32.228:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-12/10.1.33.22:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-1/10.1.32.57:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-5/10.1.32.25:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-15/10.1.33.84:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-1/10.1.35.18:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-15/10.1.33.120:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-1/10.1.32.56:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-2/10.1.33.52:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-7/10.1.35.73:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.103:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-2/10.1.33.55:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-16/10.1.35.194:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-11/10.1.32.221:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-3/10.1.35.33:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-2-3/10.1.32.244:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-16/10.1.35.198:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-1-5/10.1.32.210:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-6/10.1.35.67:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-11/10.1.35.163:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-2-16/10.1.32.231:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-13/10.1.33.24:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-15/10.1.33.90:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-15/10.1.35.191:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-15/10.1.33.81:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-2-7/10.1.32.206:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-12/10.1.33.87:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-3/10.1.35.34:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-1/10.1.32.54:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-6/10.1.35.63:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.33.79:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-1/10.1.32.55:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-16/10.1.32.45:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-14/10.1.33.30:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-1-1/10.1.35.15:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.33.76:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3d-3-17/10.1.35.50:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-3/10.1.33.109:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-1/10.1.32.58:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-6/10.1.35.65:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-11/10.1.32.224:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-3-8/10.1.33.33:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-13-5/10.1.32.28:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_4C-6-16/10.1.35.197:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.66:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-14/10.1.33.73:52010
+16/09/08 14:47:04 INFO net.NetworkTopology: Adding a new node: /default/rack_3D-15-13/10.1.33.70:52010
+16/09/08 14:47:05 INFO mapreduce.JobSubmitter: number of splits:3558
+16/09/08 14:47:05 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1470093570063_196234
+16/09/08 14:47:05 INFO impl.YarnClientImpl: Submitted application application_1470093570063_196234
+16/09/08 14:47:05 INFO mapreduce.Job: The url to track the job: http://idc02-argo-ds-03:8888/proxy/application_1470093570063_196234/
+16/09/08 14:47:05 INFO mapreduce.Job: Running job: job_1470093570063_196234
+16/09/08 14:47:11 INFO mapreduce.Job: Job job_1470093570063_196234 running in uber mode : false
+16/09/08 14:47:11 INFO mapreduce.Job:  map 0% reduce 0%
+16/09/08 14:47:26 INFO mapreduce.Job:  map 1% reduce 0%
+16/09/08 14:47:27 INFO mapreduce.Job:  map 3% reduce 0%
+16/09/08 14:47:28 INFO mapreduce.Job:  map 4% reduce 0%
+16/09/08 14:47:29 INFO mapreduce.Job:  map 5% reduce 0%
+16/09/08 14:47:30 INFO mapreduce.Job:  map 6% reduce 0%
+16/09/08 14:47:31 INFO mapreduce.Job:  map 7% reduce 0%
+16/09/08 14:47:32 INFO mapreduce.Job:  map 8% reduce 0%
+16/09/08 14:47:33 INFO mapreduce.Job:  map 9% reduce 0%
+16/09/08 14:47:34 INFO mapreduce.Job:  map 10% reduce 0%
+16/09/08 14:47:36 INFO mapreduce.Job:  map 11% reduce 0%
+16/09/08 14:47:37 INFO mapreduce.Job:  map 12% reduce 0%
+16/09/08 14:47:40 INFO mapreduce.Job:  map 13% reduce 0%
+16/09/08 14:47:42 INFO mapreduce.Job:  map 14% reduce 0%
+16/09/08 14:47:43 INFO mapreduce.Job:  map 15% reduce 0%
+16/09/08 14:47:45 INFO mapreduce.Job:  map 16% reduce 0%
+16/09/08 14:47:46 INFO mapreduce.Job:  map 17% reduce 0%
+16/09/08 14:47:47 INFO mapreduce.Job:  map 18% reduce 0%
+16/09/08 14:47:48 INFO mapreduce.Job:  map 19% reduce 0%
+16/09/08 14:47:49 INFO mapreduce.Job:  map 20% reduce 0%
+16/09/08 14:47:50 INFO mapreduce.Job:  map 21% reduce 0%
+16/09/08 14:47:51 INFO mapreduce.Job:  map 22% reduce 0%
+16/09/08 14:47:53 INFO mapreduce.Job:  map 23% reduce 0%
+16/09/08 14:47:54 INFO mapreduce.Job:  map 24% reduce 0%
+16/09/08 14:47:55 INFO mapreduce.Job:  map 25% reduce 0%
+16/09/08 14:47:57 INFO mapreduce.Job:  map 26% reduce 0%
+16/09/08 14:47:58 INFO mapreduce.Job:  map 27% reduce 0%
+16/09/08 14:47:59 INFO mapreduce.Job:  map 28% reduce 0%
+16/09/08 14:48:00 INFO mapreduce.Job:  map 29% reduce 0%
+16/09/08 14:48:02 INFO mapreduce.Job:  map 30% reduce 0%
+16/09/08 14:48:03 INFO mapreduce.Job:  map 31% reduce 0%
+16/09/08 14:48:04 INFO mapreduce.Job:  map 32% reduce 0%
+16/09/08 14:48:06 INFO mapreduce.Job:  map 33% reduce 0%
+16/09/08 14:48:07 INFO mapreduce.Job:  map 34% reduce 0%
+16/09/08 14:48:08 INFO mapreduce.Job:  map 35% reduce 0%
+16/09/08 14:48:10 INFO mapreduce.Job:  map 36% reduce 0%
+16/09/08 14:48:11 INFO mapreduce.Job:  map 37% reduce 0%
+16/09/08 14:48:12 INFO mapreduce.Job:  map 38% reduce 0%
+16/09/08 14:48:14 INFO mapreduce.Job:  map 39% reduce 0%
+16/09/08 14:48:15 INFO mapreduce.Job:  map 40% reduce 0%
+16/09/08 14:48:16 INFO mapreduce.Job:  map 41% reduce 0%
+16/09/08 14:48:17 INFO mapreduce.Job:  map 42% reduce 0%
+16/09/08 14:48:19 INFO mapreduce.Job:  map 43% reduce 0%
+16/09/08 14:48:20 INFO mapreduce.Job:  map 44% reduce 0%
+16/09/08 14:48:22 INFO mapreduce.Job:  map 45% reduce 0%
+16/09/08 14:48:23 INFO mapreduce.Job:  map 46% reduce 0%
+16/09/08 14:48:24 INFO mapreduce.Job:  map 47% reduce 0%
+16/09/08 14:48:26 INFO mapreduce.Job:  map 48% reduce 0%
+16/09/08 14:48:27 INFO mapreduce.Job:  map 49% reduce 0%
+16/09/08 14:48:28 INFO mapreduce.Job:  map 50% reduce 0%
+16/09/08 14:48:31 INFO mapreduce.Job:  map 51% reduce 0%
+16/09/08 14:48:33 INFO mapreduce.Job:  map 52% reduce 0%
+16/09/08 14:48:34 INFO mapreduce.Job:  map 53% reduce 0%
+16/09/08 14:48:36 INFO mapreduce.Job:  map 54% reduce 0%
+16/09/08 14:48:37 INFO mapreduce.Job:  map 55% reduce 0%
+16/09/08 14:48:38 INFO mapreduce.Job:  map 56% reduce 0%
+16/09/08 14:48:40 INFO mapreduce.Job:  map 57% reduce 0%
+16/09/08 14:48:42 INFO mapreduce.Job:  map 58% reduce 0%
+16/09/08 14:48:43 INFO mapreduce.Job:  map 59% reduce 0%
+16/09/08 14:48:44 INFO mapreduce.Job:  map 60% reduce 0%
+16/09/08 14:48:46 INFO mapreduce.Job:  map 61% reduce 0%
+16/09/08 14:48:47 INFO mapreduce.Job:  map 62% reduce 0%
+16/09/08 14:48:49 INFO mapreduce.Job:  map 63% reduce 0%
+16/09/08 14:48:51 INFO mapreduce.Job:  map 64% reduce 0%
+16/09/08 14:48:52 INFO mapreduce.Job:  map 65% reduce 0%
+16/09/08 14:48:53 INFO mapreduce.Job:  map 66% reduce 0%
+16/09/08 14:48:54 INFO mapreduce.Job:  map 67% reduce 0%
+16/09/08 14:48:56 INFO mapreduce.Job:  map 68% reduce 0%
+16/09/08 14:48:57 INFO mapreduce.Job:  map 69% reduce 0%
+16/09/08 14:48:59 INFO mapreduce.Job:  map 70% reduce 0%
+16/09/08 14:49:00 INFO mapreduce.Job:  map 71% reduce 0%
+16/09/08 14:49:01 INFO mapreduce.Job:  map 72% reduce 0%
+16/09/08 14:49:03 INFO mapreduce.Job:  map 73% reduce 0%
+16/09/08 14:49:04 INFO mapreduce.Job:  map 74% reduce 0%
+16/09/08 14:49:06 INFO mapreduce.Job:  map 75% reduce 0%
+16/09/08 14:49:07 INFO mapreduce.Job:  map 76% reduce 0%
+16/09/08 14:49:08 INFO mapreduce.Job:  map 77% reduce 0%
+16/09/08 14:49:10 INFO mapreduce.Job:  map 78% reduce 0%
+16/09/08 14:49:12 INFO mapreduce.Job:  map 79% reduce 0%
+16/09/08 14:49:13 INFO mapreduce.Job:  map 80% reduce 0%
+16/09/08 14:49:14 INFO mapreduce.Job:  map 81% reduce 0%
+16/09/08 14:49:15 INFO mapreduce.Job:  map 82% reduce 0%
+16/09/08 14:49:16 INFO mapreduce.Job:  map 83% reduce 0%
+16/09/08 14:49:18 INFO mapreduce.Job:  map 84% reduce 0%
+16/09/08 14:49:19 INFO mapreduce.Job:  map 85% reduce 0%
+16/09/08 14:49:20 INFO mapreduce.Job:  map 86% reduce 0%
+16/09/08 14:49:21 INFO mapreduce.Job:  map 87% reduce 0%
+16/09/08 14:49:22 INFO mapreduce.Job:  map 88% reduce 0%
+16/09/08 14:49:23 INFO mapreduce.Job:  map 89% reduce 0%
+16/09/08 14:49:26 INFO mapreduce.Job:  map 90% reduce 0%
+16/09/08 14:49:28 INFO mapreduce.Job:  map 91% reduce 1%
+16/09/08 14:49:29 INFO mapreduce.Job:  map 91% reduce 2%
+16/09/08 14:49:30 INFO mapreduce.Job:  map 91% reduce 3%
+16/09/08 14:49:31 INFO mapreduce.Job:  map 92% reduce 4%
+16/09/08 14:49:32 INFO mapreduce.Job:  map 92% reduce 5%
+16/09/08 14:49:33 INFO mapreduce.Job:  map 93% reduce 5%
+16/09/08 14:49:36 INFO mapreduce.Job:  map 94% reduce 5%
+16/09/08 14:49:39 INFO mapreduce.Job:  map 95% reduce 5%
+16/09/08 14:49:41 INFO mapreduce.Job:  map 96% reduce 5%
+16/09/08 14:49:42 INFO mapreduce.Job:  map 97% reduce 5%
+16/09/08 14:49:45 INFO mapreduce.Job:  map 98% reduce 5%
+16/09/08 14:49:48 INFO mapreduce.Job:  map 98% reduce 6%
+16/09/08 14:49:49 INFO mapreduce.Job:  map 98% reduce 7%
+16/09/08 14:49:50 INFO mapreduce.Job:  map 98% reduce 8%
+16/09/08 14:49:52 INFO mapreduce.Job:  map 98% reduce 9%
+16/09/08 14:49:53 INFO mapreduce.Job:  map 99% reduce 9%
+16/09/08 14:49:55 INFO mapreduce.Job:  map 99% reduce 10%
+16/09/08 14:50:01 INFO mapreduce.Job:  map 99% reduce 11%
+16/09/08 14:50:15 INFO mapreduce.Job:  map 100% reduce 11%
+16/09/08 14:50:24 INFO mapreduce.Job:  map 100% reduce 12%
+16/09/08 14:50:26 INFO mapreduce.Job:  map 100% reduce 16%
+16/09/08 14:50:27 INFO mapreduce.Job:  map 100% reduce 20%
+16/09/08 14:50:28 INFO mapreduce.Job:  map 100% reduce 24%
+16/09/08 14:50:29 INFO mapreduce.Job:  map 100% reduce 26%
+16/09/08 14:50:30 INFO mapreduce.Job:  map 100% reduce 28%
+16/09/08 14:50:31 INFO mapreduce.Job:  map 100% reduce 29%
+16/09/08 14:50:32 INFO mapreduce.Job:  map 100% reduce 30%
+16/09/08 14:50:34 INFO mapreduce.Job:  map 100% reduce 31%
+16/09/08 14:50:35 INFO mapreduce.Job:  map 100% reduce 32%
+16/09/08 14:50:36 INFO mapreduce.Job:  map 100% reduce 34%
+16/09/08 14:50:37 INFO mapreduce.Job:  map 100% reduce 35%
+16/09/08 14:50:38 INFO mapreduce.Job:  map 100% reduce 37%
+16/09/08 14:50:39 INFO mapreduce.Job:  map 100% reduce 38%
+16/09/08 14:50:40 INFO mapreduce.Job:  map 100% reduce 41%
+16/09/08 14:50:41 INFO mapreduce.Job:  map 100% reduce 42%
+16/09/08 14:50:42 INFO mapreduce.Job:  map 100% reduce 44%
+16/09/08 14:50:43 INFO mapreduce.Job:  map 100% reduce 45%
+16/09/08 14:50:44 INFO mapreduce.Job:  map 100% reduce 47%
+16/09/08 14:50:45 INFO mapreduce.Job:  map 100% reduce 48%
+16/09/08 14:50:46 INFO mapreduce.Job:  map 100% reduce 49%
+16/09/08 14:50:47 INFO mapreduce.Job:  map 100% reduce 50%
+16/09/08 14:50:48 INFO mapreduce.Job:  map 100% reduce 52%
+16/09/08 14:50:49 INFO mapreduce.Job:  map 100% reduce 53%
+16/09/08 14:50:50 INFO mapreduce.Job:  map 100% reduce 55%
+16/09/08 14:50:51 INFO mapreduce.Job:  map 100% reduce 56%
+16/09/08 14:50:52 INFO mapreduce.Job:  map 100% reduce 57%
+16/09/08 14:50:53 INFO mapreduce.Job:  map 100% reduce 58%
+16/09/08 14:50:54 INFO mapreduce.Job:  map 100% reduce 59%
+16/09/08 14:50:55 INFO mapreduce.Job:  map 100% reduce 60%
+16/09/08 14:50:56 INFO mapreduce.Job:  map 100% reduce 61%
+16/09/08 14:50:57 INFO mapreduce.Job:  map 100% reduce 62%
+16/09/08 14:50:58 INFO mapreduce.Job:  map 100% reduce 64%
+16/09/08 14:50:59 INFO mapreduce.Job:  map 100% reduce 65%
+16/09/08 14:51:00 INFO mapreduce.Job:  map 100% reduce 67%
+16/09/08 14:51:01 INFO mapreduce.Job:  map 100% reduce 68%
+16/09/08 14:51:02 INFO mapreduce.Job:  map 100% reduce 69%
+16/09/08 14:51:03 INFO mapreduce.Job:  map 100% reduce 70%
+16/09/08 14:51:04 INFO mapreduce.Job:  map 100% reduce 71%
+16/09/08 14:51:05 INFO mapreduce.Job:  map 100% reduce 73%
+16/09/08 14:51:06 INFO mapreduce.Job:  map 100% reduce 74%
+16/09/08 14:51:08 INFO mapreduce.Job:  map 100% reduce 76%
+16/09/08 14:51:09 INFO mapreduce.Job:  map 100% reduce 77%
+16/09/08 14:51:10 INFO mapreduce.Job:  map 100% reduce 78%
+16/09/08 14:51:11 INFO mapreduce.Job:  map 100% reduce 79%
+16/09/08 14:51:13 INFO mapreduce.Job:  map 100% reduce 81%
+16/09/08 14:51:14 INFO mapreduce.Job:  map 100% reduce 82%
+16/09/08 14:51:15 INFO mapreduce.Job:  map 100% reduce 83%
+16/09/08 14:51:16 INFO mapreduce.Job:  map 100% reduce 84%
+16/09/08 14:51:17 INFO mapreduce.Job:  map 100% reduce 85%
+16/09/08 14:51:18 INFO mapreduce.Job:  map 100% reduce 86%
+16/09/08 14:51:19 INFO mapreduce.Job:  map 100% reduce 88%
+16/09/08 14:51:20 INFO mapreduce.Job:  map 100% reduce 89%
+16/09/08 14:51:21 INFO mapreduce.Job:  map 100% reduce 90%
+16/09/08 14:51:23 INFO mapreduce.Job:  map 100% reduce 91%
+16/09/08 14:51:26 INFO mapreduce.Job:  map 100% reduce 92%
+16/09/08 14:51:29 INFO mapreduce.Job:  map 100% reduce 93%
+16/09/08 14:51:33 INFO mapreduce.Job:  map 100% reduce 94%
+16/09/08 14:51:38 INFO mapreduce.Job:  map 100% reduce 95%
+16/09/08 14:51:46 INFO mapreduce.Job:  map 100% reduce 96%
+16/09/08 14:51:59 INFO mapreduce.Job:  map 100% reduce 97%
+16/09/08 14:52:24 INFO mapreduce.Job:  map 100% reduce 98%
+16/09/08 14:53:12 INFO mapreduce.Job:  map 100% reduce 99%
+16/09/08 14:55:26 INFO mapreduce.Job:  map 100% reduce 100%
+16/09/08 16:07:46 INFO mapreduce.Job: Job job_1470093570063_196234 completed successfully
+16/09/08 16:07:46 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=429876653659
+		FILE: Number of bytes written=860383615181
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=412522395768
+		HDFS: Number of bytes written=307162111803
+		HDFS: Number of read operations=13377
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1802
+	Job Counters 
+		Launched map tasks=3558
+		Launched reduce tasks=901
+		Other local map tasks=388
+		Data-local map tasks=1722
+		Rack-local map tasks=1448
+		Total time spent by all maps in occupied slots (ms)=242866820
+		Total time spent by all reduces in occupied slots (ms)=485364304
+		Total time spent by all map tasks (ms)=60716705
+		Total time spent by all reduce tasks (ms)=60670538
+		Total vcore-seconds taken by all map tasks=60716705
+		Total vcore-seconds taken by all reduce tasks=60670538
+		Total megabyte-seconds taken by all map tasks=242866820000
+		Total megabyte-seconds taken by all reduce tasks=485364304000
+	Map-Reduce Framework
+		Map input records=8764033949
+		Map output records=8764033949
+		Map output bytes=412348173281
+		Map output materialized bytes=429895882315
+		Input split bytes=505236
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5951020681
+		Reduce shuffle bytes=429895882315
+		Reduce input records=8764033949
+		Reduce output records=5951009939
+		Spilled Records=17528067898
+		Shuffled Maps =3205758
+		Failed Shuffles=0
+		Merged Map outputs=3205758
+		GC time elapsed (ms)=3872350
+		CPU time spent (ms)=143232470
+		Physical memory (bytes) snapshot=9725484449792
+		Virtual memory (bytes) snapshot=26431516000256
+		Total committed heap usage (bytes)=21095081574400
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=412521890532
+	File Output Format Counters 
+		Bytes Written=307162111803
+16/09/08 16:07:46 INFO streaming.StreamJob: Output directory: /data/archive/app_oeudjgn5872a7c3aaa54_datamine/fuyitao/attrval_merge
